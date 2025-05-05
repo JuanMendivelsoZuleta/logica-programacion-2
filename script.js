@@ -4,7 +4,7 @@ function convertir() {
   const tempCelsius = parseFloat(entrada);
 
   if (isNaN(tempCelsius)) {
-    console.error("❌ Por favor, ingrese un número válido.");
+    console.error("Por favor, ingrese un número válido.");
     return;
   }
 
